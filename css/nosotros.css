@@ -38,8 +38,11 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .sobre-nosotros {
+  .sobre_nosotros {
     display: flex;
+  }
+  .sobre-nosotros__imagen {
+    display: block;
   }
   .sobre-nosotros__contenido {
     margin-right: 3rem;
@@ -48,11 +51,7 @@
     text-align: left;
   }
   .sobre-nosotros__texto--division {
-    border-bottom: 1px solid var(--bacgrpund-ceniza-medio);
-
+    border-bottom: 1px solid var(--background-ceniza-medio);
     padding-bottom: 1.5rem;
   }
-  .sobre-nosotros__imagen {
-    display: block;
-  }
-}
+} ;
